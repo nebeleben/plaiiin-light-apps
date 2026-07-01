@@ -1,0 +1,26 @@
+PlaiiinLight macOS client
+Copyright (c) 2026 plaiiin.com. All rights reserved.
+
+This software and its source code are proprietary and confidential. No
+part of this codebase, in any form or by any means, may be copied,
+modified, distributed, reverse-engineered, decompiled, disassembled,
+republished, sublicensed, or used to create a derivative work without
+the prior written permission of plaiiin.com.
+
+Unauthorized reproduction or use is a violation of applicable laws and
+will be prosecuted to the fullest extent.
+
+The software is provided "AS IS", without warranty of any kind, express
+or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement. In no event shall
+the authors or copyright holders be liable for any claim, damages, or other
+liability, whether in an action of contract, tort or otherwise, arising
+from, out of, or in connection with the software or the use or other
+dealings in the software.
+
+The PlaiiinLight client app talks to PlaiiinLightOS firmware (in the
+`lampos/` directory of this repository) over a documented HTTP, WebSocket,
+and BLE protocol. The firmware itself is licensed separately under the
+Apache License, Version 2.0 — see `lampos/LICENSE`. The protocol contract
+is published at `lampos/docs/protocol.md`; third parties are free to implement
+their own clients against it.
