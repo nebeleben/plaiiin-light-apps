@@ -10,13 +10,16 @@ scripts.
 
 ## Download
 
-Grab the latest build from the [**Releases**](../../releases/latest) page.
+Grab your platform's latest build from the [**Releases**](../../releases)
+page. Each platform releases on its own cadence under its own tag namespace,
+so the newest release isn't always your platform — check the tag:
 
-| Platform | Asset | Notes |
-|---|---|---|
-| macOS | `PlaiiinLight-<version>.dmg` | Universal (Apple Silicon + Intel), macOS 14 Sonoma or later |
+| Platform | Release tag | Asset | Notes |
+|---|---|---|---|
+| macOS | `vX.Y.Z` | `PlaiiinLight-<version>.dmg` | Universal (Apple Silicon + Intel), macOS 14 Sonoma or later |
+| Android | `android-vX.Y.Z` | `PlaiiinLight-<version>.apk` | Universal APK, Android 9 (API 28) or later |
 
-More platforms (iOS, Android, Windows, Linux) are published from their own
+More platforms (iOS, Windows, Linux) are published from their own
 channels — see the project site.
 
 ## Install (macOS)
@@ -29,6 +32,15 @@ channels — see the project site.
 The app is signed with an Apple **Developer ID** certificate and **notarized**
 by Apple, so it opens normally with no Gatekeeper override or right-click
 workaround.
+
+## Install (Android)
+
+1. Download `PlaiiinLight-<version>.apk` from the latest `android-v*` release,
+   directly on your phone.
+2. Open it. The first time, Android asks you to allow installs from your
+   browser ("install unknown apps") — approve it.
+3. Updates install straight over the previous version: every release is
+   signed with the same key, so you never need to uninstall first.
 
 ## Verify your download
 
@@ -47,7 +59,8 @@ spctl -a -vvv -t install /Applications/PlaiiinLight.app
 
 ## Requirements
 
-- **macOS 14 Sonoma** or later.
+- macOS: **macOS 14 Sonoma** or later.
+- Android: **Android 9** (API 28) or later.
 - A PlaiiinLight lamp running firmware **1.2.0 or newer** (network discovery
   was added there).
 
