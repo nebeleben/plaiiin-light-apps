@@ -5,8 +5,8 @@ holds no source — the apps are built from a private repository and published
 here as signed, verifiable release assets.
 
 Control your PlaiiinLight LED lamps from a native app: discover them on your
-network, compose effects with AI, stream images live, and manage on-device
-scripts.
+network, compose effects with AI, stream images live, draw pixel art and save
+it on the lamp, group lamps into swarms, and manage on-device scripts.
 
 ## Download
 
