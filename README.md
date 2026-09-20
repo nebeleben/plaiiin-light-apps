@@ -1,6 +1,6 @@
 # PlaiiinLight — App Downloads
 
-Public download host for the **PlaiiinLight** native client apps. This repo
+Public download host for the [**PlaiiinLight**](https://plaiiin-light.com/apps.html) native client apps. This repo
 holds no source — the apps are built from a private repository and published
 here as signed, verifiable release assets.
 
@@ -20,7 +20,7 @@ so the newest release isn't always your platform — check the tag:
 | Android | `android-vX.Y.Z` | `PlaiiinLight-<version>.apk` | Universal APK, Android 9 (API 28) or later |
 
 More platforms (iOS, Windows, Linux) are published from their own
-channels — see the project site.
+channels — see [plaiiin-light.com/apps.html](https://plaiiin-light.com/apps.html).
 
 ## Install (macOS)
 
